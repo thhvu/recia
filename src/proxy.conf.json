@@ -1,0 +1,7 @@
+{
+  "/": {
+      "target": "https://ent.recia.fr/esco-apps-redirector/getInfosJson.php",
+      "secure": false,
+      "logLevel": "debug"
+  }
+}

@@ -9,8 +9,6 @@ export class EtablissementsService {
   constructor(private http: HttpClient) { }
 
   etablissements() {
-    return this.http.get<any>('https://ent.recia.fr/esco-apps-redirector/getInfosJson.php', {
-      headers: { 'Access-Control-Allow-Origin': '*', 'Content-Type':'application/json; charset=utf-8;' }
-    });
+    return this.http.get<any>('https://ent.recia.fr/esco-apps-redirector/getInfosJson.php');
   }
 }
